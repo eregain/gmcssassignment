@@ -17,9 +17,6 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
 //calling the function in window.onload to make sure the HTML is loaded
 window.onload = function() {
 	 var pos = 0; 
@@ -36,6 +33,9 @@ window.onload = function() {
 			box.style.left = pos+'px';
 		}
 	}
+    </header>
+    </div>
+  );
 };
 }
 
