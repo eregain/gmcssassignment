@@ -10,7 +10,7 @@ background-color:  rgba(152, 184, 154, 0.856);
 h4{
 background-color:  rgba(152, 184, 154, 0.856);      
 }
-body{background-color:  rgba(152, 184, 154, 0.856);
+body{background-color:  rgba(152, 184, 154, 0.856); border-style: none;
 }
 .heading{font-family: arial; font-weight: bolder; color: black;
  font-size: 25px;text-transform: uppercase;
