@@ -19,7 +19,7 @@ body{background-color:  rgba(152, 184, 154, 0.856); border-style: none;
 font-weight: bolder; color: black;
  font-size: 35px;text-transform: uppercase;	
 }
-.img{ float: right; padding-right: 2px; padding-top: 2px; margin-right: 2px; margin-top: 2px; border-top: 2px; border-right: 2px;
+.img{ float: right; padding-right: 2px; padding-top: 2px; margin-right: 2px; margin-top: 2px; border-top: 2px; border-right: 2px; box-shadow: 5px 5px;
 }
 .icon{
  float: left;
