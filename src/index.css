@@ -20,6 +20,23 @@ font-weight: bolder; color: black;
  font-size: 35px;text-transform: uppercase;	
 }
 .img{ float: right; padding-right: 2px; padding-top: 2px; margin-right: 2px; margin-top: 2px; border-top: 2px; border-right: 2px; box-shadow: gold 2px 2px 2px 2px;
+  position: absolute;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    right: 0;
+  }
+  100% {
+    left: 0;
+    , webkit-transform: scaleX(-1);
+  }
+}
 }
 .icon{
  float: left;
