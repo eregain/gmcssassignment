@@ -23,10 +23,10 @@ font-weight: bolder; color: black;
   -webkit-animation: linear infinite alternate;
   -webkit-animation-name: run;
   -webkit-animation-duration: 5s;
-   transition: translate;
+   transition: translate 45deg;
 }
-.img:hover{
- translate: rotate 45deg;
+img:hover{
+ translate: rotate;
 }
 @-webkit-keyframes run {
   0% {
