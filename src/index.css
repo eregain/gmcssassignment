@@ -24,10 +24,13 @@ font-weight: bolder; color: black;
   -webkit-animation-name: run;
   -webkit-animation-duration: 5s;
    transition: translate 45deg;
+   position: absolute !important;
+   translate:transform;
+   z-index: 9;
+   animation: dZwobble 4s infinite alternate;
 }
 img:hover{
- translate: rotate;
-}
+ transform: rotate(-5deg);
 @-webkit-keyframes run {
   0% {
     left: 0;
